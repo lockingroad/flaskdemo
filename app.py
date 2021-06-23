@@ -10,7 +10,7 @@ from sqlalchemy import exists, and_, or_
 
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
-# 123
+# 12345
 # 查询时显示原始SQL语句
 db.app = app
 db.init_app(app)
